@@ -7,6 +7,9 @@ import ProductList from './components/ProductList';
 function App() {
   return (
     <div className="App">
+      <div className='page'>
+
+      
       
       <BrowserRouter>
         
@@ -19,6 +22,7 @@ function App() {
       <footer className='footer'>
         <p>Scandiweb Test assignment</p>
       </footer>
+    </div>
     </div>
 
   );

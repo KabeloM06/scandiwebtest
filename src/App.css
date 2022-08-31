@@ -1,3 +1,15 @@
+html {
+  min-height: 100vh;
+}
+
+body { 
+  height:100vh;  
+  margin:0;
+   
+}
+
+
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -56,11 +68,11 @@ section {
 
 footer {
   display: flex;
-  justify-content: space-between;
+  justify-content:center;
   align-items: center;
   background-color: #222;
   margin-top: 2rem;
-  
+  height: 50px;
 }
 
 /*Product form*/
@@ -70,4 +82,12 @@ footer {
 }
  .product_label {
   padding-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 300px;
  }
+
+ #productType {
+  min-width: 177px;
+ }
+
